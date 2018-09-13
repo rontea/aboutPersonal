@@ -1,10 +1,44 @@
 @charset "utf-8";
 /* Base CSS */
 
+.l-image {
+	background-color:aquamarine;
+}
+
+.l-item-side-top {
+	background-color:azure;
+}
+
+.l-item-top{
+	background-color:bisque;
+}
+
+.l-item-bottom{
+	background-color:burlywood;
+}
+
+
 .l-title {
-	background-color: #000000;
+	background-color:darkgray;
 	color: #FFFFFF;
 	font-size: 1.3em;
 }
+
+/* Nav */
+nav.top-menu ul li {
+	background-color: antiquewhite;
+	border: solid 1px #000000;
+}
+
+nav.top-menu ul li a{
+	
+}
+
+/*Nav Right*/
+
+.l-right {
+	background-color: darkorange;
+}
+
 
 
