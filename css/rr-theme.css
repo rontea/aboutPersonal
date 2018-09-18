@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* Base CSS */
 
+
+/* head */
 .l-image {
 	background-color:aquamarine;
 }
@@ -24,7 +26,10 @@
 	font-size: 3em;
 }
 
+/* head */
+
 /* Navigation Resources */
+
 nav.top-menu ul li {
 	background-color: antiquewhite;
 	border: solid 1px #000000;
@@ -35,6 +40,13 @@ nav.top-menu ul li a{
 	vertical-align: baseline;
 	text-align: center;
 	display: block;
+}
+
+/* About */
+
+.l-about {
+	font-size: 1.2em;
+	background-color: azure;
 }
 
 /*Nav Right*/
