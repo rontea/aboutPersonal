@@ -21,17 +21,20 @@
 .l-title {
 	background-color:darkgray;
 	color: #FFFFFF;
-	font-size: 1.3em;
+	font-size: 3em;
 }
 
-/* Nav */
+/* Navigation Resources */
 nav.top-menu ul li {
 	background-color: antiquewhite;
 	border: solid 1px #000000;
 }
 
 nav.top-menu ul li a{
-	
+	border: #000000 solid 1px;
+	vertical-align: baseline;
+	text-align: center;
+	display: block;
 }
 
 /*Nav Right*/
@@ -40,5 +43,59 @@ nav.top-menu ul li a{
 	background-color: darkorange;
 }
 
+/* Content */
+
+.l-content {
+	border-bottom: #CFCDCD dashed 1px;
+}
+
+/* l-content-left */
+
+.l-date-month {
+	font-weight: 300;
+	text-transform: uppercase;
+	
+}
+
+.l-month1 {
+	text-align: center;
+}
+
+.l-month2 {
+	text-align: center;
+}
+
+
+.l-date-range {
+	
+}
+ 
+
+.l-range1 , .l-range-center,.l-range2 {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+
+
+.l-company {
+	text-align: right;
+	font-size: 2em;
+}
+
+/* .l-content-right */
+
+
+.l-content-right {
+	border-left: #AC9D9D dashed 1px;
+}
+
+.l-content-title {
+	font-size: 1.5em;
+}
+
+.l-content-data {
+	font-size: 1.1em;
+}
 
 

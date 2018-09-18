@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* Base CSS */
 
+/* Wrap*/
 .l-wrap{
 	margin: 0 auto;
 	max-width: 1400px;
@@ -8,6 +9,9 @@
 	height: auto;
 	display: block;
 }
+
+
+/* header */
 
 header , footer, main {
 	width: 100%;
@@ -65,6 +69,19 @@ header .l-image-right .l-item-bottom{
 	height: 50%;
 }
 
+/* About */
+
+
+.l-about {
+	
+	width:100%;
+	height: auto;
+	clear: both;
+	padding: 2%;
+}
+
+
+/* Main */
 
 main .l-main-content{
 	float:left;
@@ -99,7 +116,90 @@ section .l-title {
 	width: 100%;
 	height: auto;
 	float: left;
+	clear: both;
 }
+
+section .l-content {
+	clear:both;
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 1%;
+	
+}
+
+/* Left*/
+.l-content .l-content-left {
+	width:20%;
+	height: auto;
+	float: left;
+	padding-right: 2%;
+		
+}
+
+.l-month1 {
+	float: right;
+	width: 35%;
+}
+
+.l-month-center{
+	float: right;
+	width: 15%;
+}
+
+.l-month2 {
+	float: right; 
+	width: 35%;
+}
+
+.l-date-range {
+	clear: both;
+	
+}
+
+.l-range1 {
+	float: right;
+	width: 35%;
+}
+
+.l-range-center {
+	
+	float: right;
+	width: 15%;
+}
+
+.l-range2 {
+	float: right;
+	width: 35%;
+}
+
+.l-company {
+	clear: both;
+	float: right;
+	width: 100%;
+}
+
+/* Right */
+
+.l-content .l-content-right {
+	width:80%;
+	height: auto;
+	float: left;
+	padding-left: 1%;
+}
+
+
+
+
+.l-content-right .l-content-title {
+	
+	width: 100%;
+	clear: both;
+	height: auto;
+	margin-bottom: 1%;
+	float: left;
+}
+
 
 /* Content Area*/
 
@@ -145,6 +245,7 @@ nav.top-menu ul li a {
 	height: 100%;
 	float: left;
 	width: 100%;
+
 }
 
 .strip ul{
