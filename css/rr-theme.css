@@ -5,6 +5,7 @@
 /* head */
 .l-image {
 	background-color:aquamarine;
+	border-radius: 50%;
 }
 
 .l-item-side-top {
