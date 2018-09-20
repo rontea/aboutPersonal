@@ -121,6 +121,7 @@ nav.top-menu ul li a {
 	height: auto;
 	clear: both;
 	padding: 2%;
+	float: left;
 }
 
 /* Main */
