@@ -127,14 +127,14 @@ nav.top-menu ul li a {
 
 main .l-main-content{
 	float:left;
-	width: 100%;
+	width: 80%;
 	height: auto;
 	clear: both;
 }
 
 main .l-main-content aside.l-left{
 	
-	width: 80%;
+	width: 100%;
 	height: auto;
 	
 }
@@ -150,6 +150,28 @@ main .l-main-content aside.l-right{
 aside.l-left , aside.l-right {
 	float:left;
 }
+
+
+/* Main Right*/
+
+.l-main-right {
+	width: 20%;
+	height: auto;
+	padding: 1%;
+	float: left;
+}
+
+
+.l-main-right .title {
+	
+	
+}
+/* Title */
+
+.title {
+	width:100%;
+}
+
 
 /* Content Area */
 

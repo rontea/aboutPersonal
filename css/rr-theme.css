@@ -90,7 +90,6 @@ nav.top-menu ul li a{
 }
 
 
-
 .l-company {
 	text-align: right;
 	font-size: 2em;
@@ -111,4 +110,12 @@ nav.top-menu ul li a{
 	font-size: 1.1em;
 }
 
+/* Skill */
+
+#skill1 {
+	width: 100%;
+	clear: both;
+	height: 100px;
+	float: left;
+}
 
