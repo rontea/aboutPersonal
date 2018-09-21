@@ -1,0 +1,4 @@
+# Notes
+
+Chart.js is not working.
+section Main.js
