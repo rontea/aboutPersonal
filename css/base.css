@@ -16,5 +16,7 @@ section {
 	float: left;
 }
 
-
+.clearfix {
+    overflow: auto;
+}
 

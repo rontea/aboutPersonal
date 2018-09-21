@@ -1,4 +1,20 @@
 # Notes
 
-Chart.js is not working.
+BUG:
+- Chart.js is not working.
 section Main.js
+
+
+Feature
+
+- Add "Snackbar" when downloading
+https://www.w3schools.com/howto/howto_js_snackbar.asp
+
+- Add Smoth Scroll
+https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+
+- Add Sticky Header
+https://www.w3schools.com/howto/howto_js_sticky_header.asp
+
+- Add Zoom Header
+https://www.w3schools.com/howto/howto_css_zoom_hover.asp
