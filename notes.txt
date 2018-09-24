@@ -1,8 +1,7 @@
 # Notes
 
 BUG:
-- Chart.js is not working.
-section Main.js
+- Chart.js issue on chart.js Error : https://github.com/chartjs/Chart.js/issues/2807
 
 
 Feature

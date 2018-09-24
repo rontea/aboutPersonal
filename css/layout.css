@@ -165,6 +165,8 @@ aside.l-left , aside.l-right {
 
 .l-main-right .title {
 	
+	float: left;
+	clear: both;
 	
 }
 /* Title */
