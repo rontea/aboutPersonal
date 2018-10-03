@@ -20,3 +20,10 @@ section {
     overflow: auto;
 }
 
+canvas {
+	width: 100%;
+  	height:20px;
+	clear: both;
+	float: left;
+}
+

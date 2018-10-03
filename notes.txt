@@ -1,8 +1,8 @@
-# Notes
+# Notes - 9/27/2018
 
 BUG:
 - Chart.js issue on chart.js Error : https://github.com/chartjs/Chart.js/issues/2807
-
+	Fix - USE Chart.js to resolve the issue not the bundle
 
 Feature
 

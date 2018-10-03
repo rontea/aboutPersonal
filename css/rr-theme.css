@@ -114,4 +114,15 @@ nav.top-menu ul li a{
 	font-size: 1.1em;
 }
 
+/* l-main content Right */
 
+.l-main-right {
+	
+	
+}
+
+.l-main-right .title {
+	
+	font-size: 2em;
+	border-bottom: #CCCCCC dashed 1px;
+}
