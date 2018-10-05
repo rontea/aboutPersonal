@@ -181,12 +181,30 @@ aside.l-left , aside.l-right {
 .mySkills {
 	width:100%;
 	float: left;
+	margin-top: 10px;
 	clear: both;
+
 }
 
-.skills {
-	width:100%;
+.mySkills .wrap-graph {
+	width:20%;
+	float: left;
 	height: auto;
+		
+}
+
+.mySkills .skill-title {
+	width:80%;
+	float: left;
+	height: auto;
+	padding: 1%;
+	
+}
+
+.mySkills .skills {
+	width:50px;
+	height:50px;
+
 }
 
 
