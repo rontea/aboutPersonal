@@ -8,6 +8,7 @@
 html, body {
 	margin: 0 auto;
 	padding: 0;
+	
 }
 
 section {
@@ -20,4 +21,9 @@ section {
     overflow: auto;
 }
 
-
+span.name {
+	font-size: 5em;
+	padding: 1%;
+	text-align: left;
+	font-weight: 300;
+}

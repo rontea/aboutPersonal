@@ -3,13 +3,15 @@
 
 /* Font */
 
-h1 { font-family: "Droid Sans"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Droid Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Droid Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Droid Sans"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Droid Sans"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+body {
+	font-family: 'Allerta';
+}
 
 
 /* head */
 .l-image {
 	background-color:aquamarine;
-	border-radius: 50%;
+	border-radius: 90%;
 }
 
 .l-item-side-top {
@@ -18,6 +20,21 @@ h1 { font-family: "Droid Sans"; font-size: 24px; font-style: normal; font-varian
 
 .l-item-top{
 	background-color:bisque;
+}
+
+.l-item-side-top {
+	border-right: #000000 1px solid;
+}
+
+.l-item-side-top-right .address{
+	background-color: darkseagreen;
+	font-size: 1.4em;
+	text-align:left;
+}
+
+.l-item-side-top-right .phone{
+	background-color: darkcyan;
+	font-size: 1.1em;
 }
 
 .l-item-bottom{
@@ -125,4 +142,8 @@ nav.top-menu ul li a{
 	
 	font-size: 2em;
 	border-bottom: #CCCCCC dashed 1px;
+}
+
+footer {
+	background-color: aliceblue;
 }
