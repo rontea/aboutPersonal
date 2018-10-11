@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+/*
 	
 	var skill1 = $("#skill1");
 	var skill2 = $("#skill2");
@@ -20,7 +20,7 @@ $(document).ready(function () {
 	
 	
 	
-	
+
 	var myChart = new Chart(skill1, {
     type: 'doughnut',
     data: {
@@ -42,7 +42,8 @@ $(document).ready(function () {
     },
    options: option,
 });
-	
+
+
 var myChart = new Chart(skill2, {
     type: 'doughnut',
     data: {
@@ -111,6 +112,6 @@ var myChart = new Chart(skill4, {
    options: option,
 });
 
-	
+*/
 	
 });
