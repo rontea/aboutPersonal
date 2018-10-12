@@ -9,8 +9,12 @@ body {
 
 
 /* head */
-.l-image {
-	background-color:aquamarine;
+
+.l-image{
+	background-color:#CCCCCC;
+}
+.l-image img {
+	
 	border-radius: 90%;
 }
 
@@ -26,10 +30,15 @@ body {
 	border-right: #000000 1px solid;
 }
 
-.l-item-side-top-right .address{
+.l-item-side-top-right .address {
 	background-color: darkseagreen;
-	font-size: 1.4em;
+}
+
+.l-item-side-top-right .address .address-design{
+	
+	font-size: 1.5em;
 	text-align:left;
+	vertical-align:bottom;
 }
 
 .l-item-side-top-right .phone{
