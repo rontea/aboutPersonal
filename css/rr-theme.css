@@ -41,9 +41,9 @@ body {
 	vertical-align:bottom;
 }
 
-.l-item-side-top-right .phone{
-	background-color: darkcyan;
-	font-size: 1.1em;
+.l-item-side-bottom .phone{
+	background-color:aliceblue;
+	font-size: 1.2em;
 }
 
 .l-item-bottom{
@@ -63,7 +63,7 @@ body {
 
 nav.top-menu ul li {
 	background-color: antiquewhite;
-	border: solid 1px #000000;
+	
 }
 
 nav.top-menu ul li a{

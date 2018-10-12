@@ -72,15 +72,7 @@ header .l-image-right .l-item-side{
 
 .l-item-side-top-right .address {
 	width: 100%;
-	height: 70%;
-	float:left;
-	padding: 1%;
-	
-}
-
-.l-item-side-top-right .phone {
-	width: 100%;
-	height: 30%;
+	height: 100%;
 	float:left;
 	padding: 1%;
 	
@@ -92,7 +84,13 @@ header .l-image-right .l-item-side{
 	float: left;
 }
 
-
+ .l-item-side-bottom .phone {
+	width: 30%;
+	height: 100%;
+	float:left;
+	padding: 1%;
+	
+}
 
 /* Download and Menu Section */
 
@@ -134,7 +132,7 @@ nav.top-menu {
 	
 	float: left;
 	clear: both;
-	width: 100%;
+	width: 70%;
 	height: 100%;
 }
 
@@ -153,7 +151,7 @@ nav.top-menu ul li {
 	width: 20%;
 	float: left;
 	height: 100%;
-	padding: 2%;
+	padding: 1%;
 }
 
 
@@ -164,6 +162,7 @@ nav.top-menu ul li a {
 	height: 100%;
 	float: left;
 	width: 100%;
+	display:block;
 
 }
 
