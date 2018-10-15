@@ -26,6 +26,7 @@ body {
 	background-color:bisque;
 }
 
+/* address and Phone*/
 
 .l-item-side-top-right .address {
 	background-color:azure;
@@ -34,13 +35,14 @@ body {
 .l-item-side-top-right .address .address-design{
 	
 	font-size: 1.5em;
-	text-align:right;
+	text-align:left;
 	
 }
 
 .l-item-side-bottom .phone{
 	background-color:aliceblue;
-	font-size: 1.2em;
+	font-size: .9em;
+	text-align: left;
 	
 }
 
@@ -48,6 +50,7 @@ body {
 	background-color:burlywood;
 }
 
+/* Content Title */
 
 .l-title {
 	background-color:darkgray;
@@ -73,8 +76,8 @@ nav.top-menu ul li a{
 
 /* About */
 
-.l-about {
-	font-size: 1.2em;
+.profile {
+	font-size: 1em;
 	background-color: azure;
 }
 

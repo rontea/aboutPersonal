@@ -21,6 +21,8 @@ header , footer, main {
 	
 }
 
+/* Image Setion */
+
 header .l-image {
 	width: 15%;
 	height: 200px;
@@ -39,6 +41,7 @@ header .l-image img {
 }
 
 
+/* Right of the Image */
 
 header .l-image-right {
 	width: 85%;
@@ -46,6 +49,7 @@ header .l-image-right {
 
 	
 }
+/* Right of the 1st division */
 
 header .l-image-right .l-item-side{
 	width:90%;
@@ -54,21 +58,24 @@ header .l-image-right .l-item-side{
 	
 }
 
-
+/* Right of the top : name section */
 .l-image-right .l-item-side .l-item-side-top {
 	height: 50%;
-	width: 60%;
+	width: 70%;
 	float: left;
 	
 }
 
+/* Right of the top: address section */
 .l-image-right .l-item-side .l-item-side-top-right {
-	width: 40%;
+	width: 30%;
 	float: left;
 	height: 50%;
 	
 	
 }
+
+/* Address */
 
 .l-item-side-top-right .address {
 	width: 100%;
@@ -77,13 +84,14 @@ header .l-image-right .l-item-side{
 	padding: 2%;
 	
 }
-
+/* Right of Image Section*/
 .l-image-right  .l-item-side .l-item-side-bottom {
 	height: 50%;
 	width: 100%;
 	float: left;
 }
 
+/* Phone */
  .l-item-side-bottom .phone {
 	width: 30%;
 	height: 100%;
@@ -91,6 +99,16 @@ header .l-image-right .l-item-side{
 	padding: 1%;
 	
 }
+
+/* Profile */
+
+.profile {
+	width:70%;
+	float: left;
+	height: auto;
+	padding: 2%;
+}
+
 
 /* Download and Menu Section */
 
@@ -117,22 +135,19 @@ header .l-image-right .l-item-bottom{
 	float: left;
 }
 
+/* Download Section */
 .l-item-top , .l-item-bottom {
 	float: right;
 	height: 50%;
 }
 
 
-
-/* Header Menu */
-
-/* Head */
+/* Navigation */
 
 nav.top-menu {
 	
 	float: left;
-	clear: both;
-	width: 70%;
+	width: 30%;
 	height: 100%;
 }
 
@@ -142,7 +157,6 @@ nav.top-menu ul {
 	float: left;
 	width: 100%;
 	height: 100%;
-	
 	
 }
 
@@ -198,7 +212,6 @@ main .l-main-content aside.l-right{
 	width: 20%;
 	height: auto;
 	padding: 1%;
-	
 }
 
 aside.l-left , aside.l-right {
@@ -356,21 +369,6 @@ section .l-content {
 
 
 
-/* fixed */
-
-.strip ul{
-	padding: 0;
-	margin: 0;
-}
-
-.strip ul li{
-	list-style: none;
-}
-
-.strip a {
-	text-decoration: none;
-	color: #000000;
-}
 
 
 footer {
