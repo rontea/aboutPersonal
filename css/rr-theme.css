@@ -11,7 +11,7 @@ body {
 /* head */
 
 .l-image{
-	background-color:#CCCCCC;
+	background-color:azure;
 }
 .l-image img {
 	
@@ -26,24 +26,22 @@ body {
 	background-color:bisque;
 }
 
-.l-item-side-top {
-	border-right: #000000 1px solid;
-}
 
 .l-item-side-top-right .address {
-	background-color: darkseagreen;
+	background-color:azure;
 }
 
 .l-item-side-top-right .address .address-design{
 	
 	font-size: 1.5em;
-	text-align:left;
-	vertical-align:bottom;
+	text-align:right;
+	
 }
 
 .l-item-side-bottom .phone{
 	background-color:aliceblue;
 	font-size: 1.2em;
+	
 }
 
 .l-item-bottom{
