@@ -26,15 +26,20 @@ body {
 	background-color:bisque;
 }
 
+.contact-title {
+	font-size: 1.3em;
+	background-color: aliceblue;
+}
+
 /* address and Phone*/
 
 .l-item-side-top-right .address {
-	background-color:azure;
+	background-color: aliceblue;
 }
 
 .l-item-side-top-right .address .address-design{
 	
-	font-size: 1.5em;
+	font-size: 1em;
 	text-align:left;
 	
 }
