@@ -21,11 +21,15 @@ header , footer, main {
 	
 }
 
+header {
+	margin-bottom:1%;
+}
+
 /* Image Setion */
 
 header .l-image {
 	width: 15%;
-	height: 200px;
+	height: 210px;
 	padding: 1%;
 	
 }
@@ -45,14 +49,14 @@ header .l-image img {
 
 header .l-image-right {
 	width: 85%;
-	height: 200px;
+	height: 210px;
 
 	
 }
 /* Right of the 1st division */
 
 header .l-image-right .l-item-side{
-	width:90%;
+	width:95%;
 	height: 100%;
 	float: left;
 	
@@ -61,14 +65,14 @@ header .l-image-right .l-item-side{
 /* Right of the top : name section */
 .l-image-right .l-item-side .l-item-side-top {
 	height: 50%;
-	width: 70%;
+	width: 80%;
 	float: left;
 	
 }
 
 /* Right of the top: address section */
 .l-image-right .l-item-side .l-item-side-top-right {
-	width: 30%;
+	width: 20%;
 	float: left;
 	height: 50%;
 	
@@ -111,7 +115,7 @@ header .l-image-right .l-item-side{
 
 /* Phone */
  .l-item-side-bottom .phone {
-	width: 30%;
+	width: 20%;
 	height: 100%;
 	float:left;
 	padding: 1%;
@@ -121,7 +125,7 @@ header .l-image-right .l-item-side{
 /* Profile */
 
 .profile {
-	width:70%;
+	width:80%;
 	float: left;
 	height: auto;
 	padding: 2%;
@@ -131,7 +135,7 @@ header .l-image-right .l-item-side{
 /* Download and Menu Section */
 
 header .l-image-right .l-item-side-right{
-	width:10%;
+	width:5%;
 	height: 100%;
 	float: left;
 }
@@ -373,10 +377,6 @@ section .l-content {
 	margin-bottom: 1%;
 	float: left;
 }
-
-
-
-
 
 footer {
 	width: 100%;
