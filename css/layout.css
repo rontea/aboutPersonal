@@ -141,10 +141,7 @@ header .l-image-right .l-item-side-right{
 }
 
 
-header .l-image-right .l-item-top{
-	width: 100%;
-	
-}
+
 
 header .l-image-right .l-item-bottom{
 	width: 100%;
@@ -158,9 +155,32 @@ header .l-image-right .l-item-bottom{
 }
 
 /* Download Section */
-.l-item-top , .l-item-bottom {
-	float: right;
-	height: 50%;
+
+ .l-item-top{
+	float: left;
+	width: 100%;
+	height: 25%;
+	
+	
+}
+
+ .l-item-middle-top {
+	float: left;
+	height: 25%;
+	width: 100%;
+}
+
+ .l-item-middle-bottom {
+	float: left;
+	height: 25%;
+	width: 100%;
+}
+
+
+ .l-item-bottom {
+	float: left;
+	height: 25%;
+	width: 100%;
 }
 
 
@@ -253,34 +273,25 @@ aside.l-left , aside.l-right {
 	margin-top: 2%; 
 }
 
-/* Skills */
+/* Skills Graph */
 
 .mySkills {
 	width:100%;
 	float: left;
 	margin-top: 10px;
 	clear: both;
-
 }
 
 .mySkills .wrap-graph {
-	width:20%;
-	float: left;
-	height: auto;
-		
+	width:100%;
+	float: left;		
 }
 
-.mySkills .skill-title {
-	width:80%;
-	float: left;
-	height: auto;
-	padding: 1%;
-	
-}
 
 .mySkills .skills {
-	width:50px;
-	height:50px;
+
+	display: block;
+	height: 300px;
 
 }
 

@@ -1,117 +1,68 @@
 $(document).ready(function () {
-/*
-	
-	var skill1 = $("#skill1");
-	var skill2 = $("#skill2");
-	
-	var option = {
-		
-		display: false,
-		legend: {
-            display: false,
-			position: 'left',
-         },
-		tooltips: {
-            enabled: false
-         },
-		maintainAspectRatio: false,
- 
-    };
-	
-	
 	
 
-	var myChart = new Chart(skill1, {
-    type: 'doughnut',
+var ctx = $('#skills');	
+
+ var option = { 
+        
+        legend: { 
+            display: false, 
+            position: 'left', 
+         }, 
+        tooltips: { 
+            enabled: false 
+         }, 
+        maintainAspectRatio: true,
+	 
+	 	scales: {
+			xAxes: [{
+				
+				gridLines: {
+					
+					display: false,
+				}
+			}],
+			
+			yAxes: [{
+			
+				gridLines: {
+					display: false,	
+				}
+			
+			}],
+		},
+	 	
+    }; 	
+	
+var myChart = new Chart(ctx, {
+    type: 'horizontalBar',
     data: {
-        labels: ["Red"],
+        labels: ["", "Blue", "Yellow", "Green", "Purple", "Orange"],
         datasets: [{
-            
-            data: [60,40],
+            label: 'My Skills',
+            data: [0, 20, 40, 60, 80, 100],
+			
+			
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
             ],
             borderColor: [
                 'rgba(255,99,132,1)',
                 'rgba(54, 162, 235, 1)',
-                
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
             ],
-            borderWidth: 1
+            borderWidth: 0
         }]
     },
-   options: option,
+    options: option,
 });
-
-
-var myChart = new Chart(skill2, {
-    type: 'doughnut',
-    data: {
-        labels: ["Red"],
-        datasets: [{
-            
-            data: [60,40],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 1)',
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                
-            ],
-            borderWidth: 1
-        }]
-    },
-   options: option,
-});
-	
-
-var myChart = new Chart(skill3, {
-    type: 'doughnut',
-    data: {
-        labels: ["Red"],
-        datasets: [{
-            
-            data: [60,40],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 1)',
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                
-            ],
-            borderWidth: 1
-        }]
-    },
-   options: option,
-});
-	
-
-var myChart = new Chart(skill4, {
-    type: 'doughnut',
-    data: {
-        labels: ["Red"],
-        datasets: [{
-            
-            data: [60,40],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 1)',
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                
-            ],
-            borderWidth: 1
-        }]
-    },
-   options: option,
-});
-
-*/
-	
+	ctx.canvas.parentNode.style.height = '128px';
 });

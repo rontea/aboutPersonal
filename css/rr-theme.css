@@ -166,8 +166,10 @@ footer {
 
 /* Icons */
 
-.l-item-top img {
-	width: 100%;
+.l-item-top img , .l-item-bottom img, 
+.l-item-middle-top img , .l-item-middle-bottom img {
+	width: 90%;
 	height: 100%;
-
 }
+
+
