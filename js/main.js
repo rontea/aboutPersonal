@@ -2,6 +2,8 @@ $(document).ready(function () {
 	
 /* Cover letter */
 	
+	
+	
 	$('.l-item-middle-bottom').click(function (){
 		
 		$('.pop-wrap').toggleClass('show');

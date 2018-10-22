@@ -19,6 +19,7 @@
 	margin-top: 5%;
 	border: 10px solid rgb(127, 0, 0, .5);
 	background-clip: padding-box;
+	-webkit-border-radius: 5px;
 	border-radius: 5px; 
 	
 }
@@ -33,7 +34,6 @@
 	padding-right: 3px;
 	padding-bottom: 3px;
 	clear: both;
-
 }
 
 .popout-close img {
@@ -55,7 +55,8 @@
 }
 
 
-/* Toggle this class - hide and show the popup */
+
+/* Hide and Show Pop-out */
  .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
@@ -73,4 +74,7 @@
     to {opacity:1 ;}
 }
 
+/* End Pop-out */
+
+/* Side Bar */
 
