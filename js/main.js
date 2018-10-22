@@ -1,6 +1,20 @@
 $(document).ready(function () {
 	
-
+/* Cover letter */
+	
+	$('.l-item-middle-bottom').click(function (){
+		
+		$('.pop-wrap').toggleClass('show');
+		
+	});
+	
+	$('.popout-close').click(function (){
+		
+		$('.pop-wrap').toggleClass('show');
+		
+	});
+	
+	
 var ctx = $('#skills');	
 
  var option = { 

@@ -172,4 +172,8 @@ footer {
 	height: 100%;
 }
 
+.l-item-middle-bottom ,.l-item-top  {
+	cursor:pointer;
+}
+
 
