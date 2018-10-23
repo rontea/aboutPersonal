@@ -17,6 +17,27 @@ $(document).ready(function () {
 	});
 	
 	
+/* Menu Main */	
+	
+	$('#openbtn').click(function (){
+		
+		$('#mySidebar').css('width','250px');
+		$('#mySidebar').css('margin-left','250px');
+		
+	});
+	
+	$('#closebtn').click(function (){
+		
+		$('#mySidebar').css('width','0');
+		$('#mySidebar').css('margin-left','0');
+		
+	});
+	
+	
+	
+	
+	
+	
 var ctx = $('#skills');	
 
  var option = { 
