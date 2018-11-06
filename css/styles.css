@@ -78,6 +78,7 @@
 
 /* Side Bar - Collapsed */
 
+
 .sidebar {
 	
 	height: 100%; /* 100% Full-height */
@@ -92,6 +93,7 @@
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 	
 }
+
 
 /* The sidebar links */
 .sidebar a {
@@ -114,6 +116,8 @@
     right: 0;
     font-size: 50px;
     margin-left: 50px;
+	
+	
 }
 
 /* The button used to open the sidebar */

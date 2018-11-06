@@ -3,7 +3,6 @@ $(document).ready(function () {
 /* Cover letter */
 	
 	
-	
 	$('.l-item-middle-bottom').click(function (){
 		
 		$('.pop-wrap').toggleClass('show');
@@ -27,6 +26,7 @@ $(document).ready(function () {
 	});
 	
 	$('#closebtn').click(function (){
+		
 		
 		$('#mySidebar').css('width','0');
 		$('#mySidebar').css('margin-left','0');
