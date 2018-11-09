@@ -1,13 +1,22 @@
 @charset "utf-8";
 /* Base CSS */
 
+/* 
+
+This makes sure that the padding 
+and border are included in the total 
+width and height of the elements. 
+*/
+
 * {
     box-sizing: border-box;
 }
 
+/* Center the Page */
+
 html, body {
 	margin: 0 auto;
-	padding: 0;
+	padding: 0 auto;
 	
 }
 

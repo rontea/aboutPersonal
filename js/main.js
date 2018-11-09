@@ -37,7 +37,7 @@ $(document).ready(function () {
 	
 	
 	
-	
+/*	
 var ctx = $('#skills');	
 
  var option = { 
@@ -102,4 +102,7 @@ var myChart = new Chart(ctx, {
     options: option,
 });
 	ctx.canvas.parentNode.style.height = '128px';
+	
+	*/
+	
 });

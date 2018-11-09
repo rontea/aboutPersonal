@@ -8,6 +8,7 @@
 	width: 100%;
 	height: auto;
 	display: block;
+	
 }
 
 
@@ -391,4 +392,53 @@ footer {
 	clear: both;
 	height: 100px;
 	float: left;
+}
+
+/* Responsive */
+
+
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+	.l-wrap{
+		float: left;
+		
+	}
+	header {
+		width: 100%;
+		height:auto;
+	}
+	
+	header .l-image {
+		width: 15%;
+		height: 130px;
+		padding: 1%;
+	
+	}
+	
+	.l-image-right {
+		width: 85%;
+		height: 130px;
+	}
+	
+	.l-image-right .l-item-side .l-item-side-top{
+		width: 90%;
+		
+	}
+	
+	.profile{
+		width: 90%;
+	}
+	
+	.l-item-side-top-right {
+		display: none;
+
+	}
+	.l-item-side-right {
+		width:5%;
+	}
+	.phone{
+		display: none;
+		width: 0;
+	}
+	
 }
