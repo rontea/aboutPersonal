@@ -176,11 +176,28 @@ footer {
 	cursor:pointer;
 }
 
+
+span.name {
+	font-size: 5em;
+	padding: 1%;
+	text-align: left;
+	font-weight: 300;
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and down) */
 @media only screen and (max-width: 1200px) {
 		.l-item-top img , .l-item-bottom img, 
 	.l-item-middle-top img , .l-item-middle-bottom img {
-		max-width: 100%;
-		max-height: 60%;
+		max-width: 70%;
+		max-height:80%;
 	}
+
+	@media only screen and (max-width: 1200px) {
+		span.name {
+			font-size: 4.3em;
+		}
+	}
+	
+	
+	
 }

@@ -30,12 +30,6 @@ section {
     overflow: auto;
 }
 
-span.name {
-	font-size: 5em;
-	padding: 1%;
-	text-align: left;
-	font-weight: 300;
-}
 
 /* fixed */
 
