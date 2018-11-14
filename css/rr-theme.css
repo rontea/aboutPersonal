@@ -5,6 +5,7 @@
 
 body {
 	font-family: 'Allerta';
+	overflow: hidden;
 }
 
 /* header */
