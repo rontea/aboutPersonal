@@ -238,7 +238,7 @@ aside.l-left , aside.l-right {
 }
 
 
-/* Main Right*/
+/* Main Right Navigation*/
 
 .l-main-right {
 	width: 19%;
@@ -246,8 +246,6 @@ aside.l-left , aside.l-right {
 	float: left;
 	margin-left: 1%;
 }
-
-
 
 /*Title */
 
@@ -259,6 +257,35 @@ aside.l-left , aside.l-right {
 	padding: 1%;
 	clear: both;
 	margin-top: 2%; 
+}
+/* List items */
+
+.list-item {
+	padding: 2px;
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+.list-item ul{
+	list-style:none;
+	padding: 0px;
+	width: 100%;
+	float: left;
+}
+
+.list-item li{
+	width: 100%;
+	height: auto;
+	float: left;
+	
+}
+
+.list-item li.skills {
+	background-color: azure;
+	margin-bottom: 10px;
+	padding:3px;
+	
 }
 
 /* Skills Graph */
@@ -307,7 +334,7 @@ section .l-content {
 	
 }
 
-/* Left*/
+/* Left */
 .l-content .l-content-left {
 	width:20%;
 	height: auto;

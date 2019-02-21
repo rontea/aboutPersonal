@@ -101,6 +101,11 @@ nav.top-menu ul li a{
 	background-color: darkorange;
 }
 
+.list-item li.skills {
+	font-size: 1.3em;
+	text-overflow: ellipsis;
+}
+
 /* Content */
 
 .l-content {
