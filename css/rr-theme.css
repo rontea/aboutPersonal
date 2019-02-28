@@ -102,8 +102,20 @@ nav.top-menu ul li a{
 }
 
 .list-item li.skills {
-	font-size: 1.3em;
-	text-overflow: ellipsis;
+	font-size: 1.1em;
+	background-color:#BFB5B5;
+}
+
+li.basic {
+	width: 50%;
+}
+
+li.medium {
+	width: 70%;
+}
+
+li.intermediate {
+	width: 100%;
 }
 
 /* Content */
