@@ -134,10 +134,12 @@ li.intermediate {
 
 .l-month1 {
 	text-align: center;
+	font-size: 1em;
 }
 
 .l-month2 {
 	text-align: center;
+	font-size: 1em;
 }
 
 
@@ -203,16 +205,62 @@ span.name {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and down) */
-@media only screen and (max-width: 1200px) {
-		.l-item-top img , .l-item-bottom img, 
+
+@media screen and (max-width: 1400px) {
+		
+	/*Date Issue smaller font*/
+	.l-range1 , .l-range-center,.l-range2 {
+		text-align: center;
+		font-size: 2.2em;
+	}
+		
+}
+@media screen and (max-width: 1200px) {
+		
+	.l-item-top img , .l-item-bottom img, 
 	.l-item-middle-top img , .l-item-middle-bottom img {
 		max-width: 70%;
 		max-height:80%;
 	}
 
-	@media only screen and (max-width: 1200px) {
-		span.name {
-			font-size: 4.3em;
-		}
-	}	
+	span.name {
+		font-size: 4.3em;
+	}
+	/*Date , Month smaller font*/
+	.l-range1 , .l-range-center,.l-range2 {
+		
+		font-size: 1.7em;
+	}
+	
+	.l-month1 {
+	
+	font-size: .1em;
+	}
+
+	.l-month2 {
+	
+	font-size: .1em;
+	}
+		
+}
+
+@media screen and (max-width: 1024px) { 
+	
+	
+/*Date , Month smaller font*/
+	.l-range1 , .l-range-center,.l-range2 {
+		
+		font-size: 1.5em;
+	}
+	.l-month1 {
+	
+	font-size: .7em;
+	}
+
+	.l-month2 {
+	
+	font-size: .7em;
+	}
+		
+
 }

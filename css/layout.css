@@ -415,6 +415,10 @@ footer {
 /* Responsive */
 
 /* Extra large devices (large laptops and desktops, 1200px and down) */
+
+
+
+
 @media only screen and (max-width: 1200px) {
 	.l-wrap{
 		float: left;
@@ -425,6 +429,26 @@ footer {
 		
 		height:200px;
 	}
-
 	
 }
+
+@media only screen and (max-width: 1200px) {
+	
+	
+	.l-main-content{
+	float:left;
+	width: 100%;
+	
+	clear: both;
+	}
+	
+	/* Main Right Navigation Move to Bottom*/
+
+	.l-main-right {
+		width: 100%;
+		clear:both;
+	}
+
+}
+
+
