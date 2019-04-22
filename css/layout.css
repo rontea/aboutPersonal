@@ -121,6 +121,7 @@ header .header-wrap .l-address-wrap{
 	float:left;
 	padding: 2%;
 	z-index: 90;
+	text-align: left;
 	
 }
 
@@ -128,7 +129,16 @@ header .header-wrap .l-address-wrap{
 	max-width:30px;
 	max-height: 30px;
 	display: block;
+	float: left;
 }
+.address-design table {
+	float: left;
+}
+.address-design table td{
+	vertical-align:top;
+	
+}
+
 /* Section 3*/
 
 /* Download and Menu Section */
@@ -434,19 +444,50 @@ footer {
 
 @media only screen and (max-width: 1024px) {
 	
-	
-	.l-main-content{
-	float:left;
-	width: 100%;
-	clear: both;
+	/*Header*/
+	header{
+		height: auto;
+	}
+	.header-wrap .l-image {
+		width: 10%;
+		height: 60%;
 	}
 	
-	/* Main Right Navigation Move to Bottom*/
+	.header-wrap .l-item-side .name{
+		font-size: 3em;
+	}
+	
+	.header-wrap .l-address-wrap {
+		
+	}
+	.header-wrap  .l-address-wrap .l-item-side-top-right {
+		display: none;
+		
+	}
+	
+	/* Main Content to 100% */
+	main .l-main-content{
+
+		width: 100%;
+
+	}
+	
+	/* Main Right Navigation */
 
 	.l-main-right {
 		width: 100%;
 		clear:both;
 	}
+	
+	/*left item Move to Bottom*/
+
+	.l-right-wrap{
+		width:30%;
+		float: left;
+		margin-right: 2%;
+	}
+	
+	
 
 }
 
