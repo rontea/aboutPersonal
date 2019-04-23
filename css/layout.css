@@ -448,27 +448,34 @@ footer {
 	header{
 		height: auto;
 	}
+		/*image*/
 	.header-wrap .l-image {
-		width: 10%;
+		width: 15%;
 		height: 60%;
 	}
-	
-	.header-wrap .l-item-side .name{
-		font-size: 3em;
+	/* header name and profile */
+	.header-wrap .l-item-side {
+		width:60%;
+	}
+	.header-wrap .l-item-side-wrap {
+		width: 100%;
+	}
+	/* Menu */
+	header .header-wrap .l-item-side-right{
+		width: 7%;
 	}
 	
-	.header-wrap .l-address-wrap {
-		
-	}
-	.header-wrap  .l-address-wrap .l-item-side-top-right {
-		display: none;
-		
+	/* Address and Contact details*/
+	header .header-wrap .l-address-wrap{
+		width: 100%;
+		clear: both;
 	}
 	
 	/* Main Content to 100% */
 	main .l-main-content{
 
 		width: 100%;
+		
 
 	}
 	

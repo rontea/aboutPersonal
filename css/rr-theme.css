@@ -1,4 +1,4 @@
-@charset "utf-8";
+<strong></strong>@charset "utf-8";
 /* Base CSS */
 
 /* Font */
@@ -246,7 +246,12 @@ span.name {
 
 @media screen and (max-width: 1024px) { 
 	
-	
+		/* header name and profile */
+
+
+	.header-wrap .l-item-side .name{
+		font-size: 3em;
+	}
 /*Date , Month smaller font*/
 	.l-range1 , .l-range-center,.l-range2 {
 		
