@@ -94,7 +94,8 @@ header .header-wrap .l-address-wrap{
 .header-wrap  .l-address-wrap .l-item-side-top-right {
 	width: 100%;
 	float: left;
-	height: 50%;	
+	height: auto;
+	padding: 1%;
 }
 
 
@@ -108,16 +109,17 @@ header .header-wrap .l-address-wrap{
 
  .l-address-wrap .phone {
 	width: 100%;
-	height: 50%;
+	height: auto;
 	float:left;
 	padding: 1%;
+	
 }
 
 /* Address */
 
 .l-item-side-top-right .address {
 	width: 100%;
-	height: 70%;
+	height: auto;
 	float:left;
 	padding: 2%;
 	z-index: 90;
@@ -128,15 +130,19 @@ header .header-wrap .l-address-wrap{
 .address-design img {
 	max-width:30px;
 	max-height: 30px;
-	display: block;
-	float: left;
+	
 }
 .address-design table {
 	float: left;
+	width: 100%;
+	max-width: 300px;
 }
 .address-design table td{
 	vertical-align:top;
-	
+}
+
+.address-design table tr{
+	width: 100%;
 }
 
 /* Section 3*/
@@ -449,67 +455,79 @@ footer {
 		height: auto;
 	}
 	
-		/*image*/
+	/*image*/
 	.header-wrap .l-image {
 		width: 15%;
-		height: 60%;
+		height: auto;
 	}
-	/* header name and profile */
 	.header-wrap .l-item-side {
 	
 		
 	}
+	
 	/* name and profile */
-	.header-wrap .l-item-side-wrap {
+	.header-wrap .l-item-side-wrap{
 		width: 100%;
+		clear: both;
 	}
 
 	
 	/* Address and Contact details*/
-	header .header-wrap .l-address-wrap{
+	
+	.l-item-side .l-address-wrap {
 		width: 100%;
-		clear: both;
+		clear: both;	
 	}
-		/* Menu */
-	header .header-wrap .l-item-side-right{
+	
+	.l-address-wrap .l-item-side-top-right{
 		width: 100%;
+		float: left;
+	}
+
+	
+	.l-address-wrap .phone {
+		float: left;
+		width: 50%;
+	}
+	
+	.l-address-wrap .phone span{
+		
+		
+	}
+
+	
+	/* Menu */
+	header .header-wrap .l-item-side-right{
+		width: 25%;
 		clear: both;
-		height: 5%;
+		float: right;
+	}
+	
+	header .header-wrap .l-item-side-right img{
+		width: 40px;
+		height: 40px;
 	}
 	/* Download Section */
 
- .l-item-top{
-	
-	width: 25%;
-	
-	
-}
+	.l-item-top{
+		width: 25%;
+	}
 
- .l-item-middle-top {
-	
-	
-	width: 25%;
-}
+	.l-item-middle-top {
+		width: 25%;
+	}
 
- .l-item-middle-bottom {
-	
-	
-	width: 25%;
-}
+	.l-item-middle-bottom {
 
-
- .l-item-bottom {
-	
-	
-	width: 25%;
-}
+		width: 25%;
+	}
+	.l-item-bottom {
+		width: 25%;
+	}
 	
 	/* Main Content to 100% */
 	main .l-main-content{
-
 		width: 100%;
-		
-
 	}
 	
 	/* Main Right Navigation */
