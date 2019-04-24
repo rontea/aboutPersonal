@@ -448,6 +448,7 @@ footer {
 	header{
 		height: auto;
 	}
+	
 		/*image*/
 	.header-wrap .l-image {
 		width: 15%;
@@ -455,21 +456,53 @@ footer {
 	}
 	/* header name and profile */
 	.header-wrap .l-item-side {
-		width:60%;
+	
+		
 	}
+	/* name and profile */
 	.header-wrap .l-item-side-wrap {
 		width: 100%;
 	}
-	/* Menu */
-	header .header-wrap .l-item-side-right{
-		width: 7%;
-	}
+
 	
 	/* Address and Contact details*/
 	header .header-wrap .l-address-wrap{
 		width: 100%;
 		clear: both;
 	}
+		/* Menu */
+	header .header-wrap .l-item-side-right{
+		width: 100%;
+		clear: both;
+		height: 5%;
+	}
+	/* Download Section */
+
+ .l-item-top{
+	
+	width: 25%;
+	
+	
+}
+
+ .l-item-middle-top {
+	
+	
+	width: 25%;
+}
+
+ .l-item-middle-bottom {
+	
+	
+	width: 25%;
+}
+
+
+ .l-item-bottom {
+	
+	
+	width: 25%;
+}
 	
 	/* Main Content to 100% */
 	main .l-main-content{
