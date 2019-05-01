@@ -460,41 +460,31 @@ footer {
 		width: 15%;
 		height: auto;
 	}
-	.header-wrap .l-item-side {
-	
-		
-	}
+
 	
 	/* name and profile */
 	.header-wrap .l-item-side-wrap{
 		width: 100%;
 		clear: both;
 	}
-
 	
 	/* Address and Contact details*/
 	
-	.l-item-side .l-address-wrap {
+	header .header-wrap .l-address-wrap{
+		height: 100%;
 		width: 100%;
-		clear: both;	
 	}
-	
-	.l-address-wrap .l-item-side-top-right{
-		width: 100%;
-		float: left;
+
+	.header-wrap  .l-address-wrap .l-item-side-top-right {
+	width: 60%;
+			
 	}
 
 	
 	.l-address-wrap .phone {
-		float: left;
-		width: 50%;
+		width: 40%;
 	}
 	
-	.l-address-wrap .phone span{
-		
-		
-	}
-
 	
 	/* Menu */
 	header .header-wrap .l-item-side-right{
@@ -504,8 +494,7 @@ footer {
 	}
 	
 	header .header-wrap .l-item-side-right img{
-		width: 40px;
-		height: 40px;
+		
 	}
 	/* Download Section */
 

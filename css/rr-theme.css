@@ -229,18 +229,14 @@ span.name {
 	/*Date , Month smaller font*/
 	.l-range1 , .l-range-center,.l-range2 {
 		
-		font-size: 1.7em;
+		font-size: 1.6em;
 	}
 	
-	.l-month1 {
+	.l-month1 , .l-month2 {
 	
 	font-size: 1em;
 	}
 
-	.l-month2 {
-	
-	font-size: 1em;
-	}
 		
 }
 
@@ -257,15 +253,11 @@ span.name {
 		
 		font-size: 1.7em;
 	}
-	.l-month1 {
+	.l-month1 , .l-month2 { 
 	
-	font-size: .7em;
+		font-size: .8em;
 	}
 
-	.l-month2 {
 	
-	font-size: .7em;
-	}
-		
 
 }
