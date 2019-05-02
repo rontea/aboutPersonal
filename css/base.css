@@ -17,6 +17,9 @@ width and height of the elements.
 html, body {
 	margin: 0 auto;
 	padding: 0 auto;
+	width: 100%;
+	height: 100%;
+	
 	
 }
 
