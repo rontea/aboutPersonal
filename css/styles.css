@@ -117,9 +117,16 @@
     top: 0;
     right: 0;
     font-size: 50px;
-    margin-left: 50px;
+    margin-left: 47px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+	cursor: pointer;
 	
-	
+}
+
+.sidebar  #closebtn:hover {
+    color: #f1f1f1;
 }
 
 /* The button used to open the sidebar */
