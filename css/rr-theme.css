@@ -233,7 +233,6 @@ span.name {
 	}
 	
 	.l-month1 , .l-month2 {
-	
 	font-size: 1em;
 	}
 
@@ -242,13 +241,12 @@ span.name {
 
 @media screen and (max-width: 1024px) { 
 	
-		/* header name and profile */
-
+	/* header name and profile */
 
 	.header-wrap .l-item-side .name{
 		font-size: 3em;
 	}
-/*Date , Month smaller font*/
+	/*Date , Month smaller font*/
 	.l-range1 , .l-range-center,.l-range2 {
 		
 		font-size: 1.7em;
@@ -256,8 +254,6 @@ span.name {
 	.l-month1 , .l-month2 { 
 	
 		font-size: .8em;
-	}
-
-	
+	}	
 
 }

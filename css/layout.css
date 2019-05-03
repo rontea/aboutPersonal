@@ -574,6 +574,7 @@ footer {
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
+		text-align: center;
 	}
 	/* Main Content */
 	main .l-content .l-content-left {
@@ -702,7 +703,9 @@ footer {
 @media only screen and (max-width: 400px) { 
 	header .header-wrap .l-item-side-right{
 		width: 100%;
-		
+	}
+	.l-image , .header-wrap , .l-item-side {
+		font-size: 14px;
 	}
 }
 	
