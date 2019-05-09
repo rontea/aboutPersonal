@@ -437,20 +437,9 @@ footer {
 
 
 
-@media only screen and (max-width: 1200px) {
-	.l-wrap{
-		float: left;
-		display: block;
-		
-	}
-	header {
-		
-		height:200px;
-	}
-	
-}
 
-@media only screen and (max-width: 1024px) {
+
+@media only screen and (max-width: 1200px) {
 	
 	/*Header*/
 	header{
@@ -683,7 +672,7 @@ footer {
 @media only screen and (max-width: 600px) {
 	/* Menu */
 	header .header-wrap .l-item-side-right{
-		width: 90%;
+		width: 80%;
 		
 	}
 	/* Address */
@@ -698,13 +687,17 @@ footer {
 		width: 100%;
 		clear: both;
 	}
+	
+	.header-wrap .l-item-side {
+		font-size: 17px;
+	}
 }
 
 @media only screen and (max-width: 400px) { 
 	header .header-wrap .l-item-side-right{
 		width: 100%;
 	}
-	.l-image , .header-wrap , .l-item-side {
+	.header-wrap .l-item-side {
 		font-size: 14px;
 	}
 }
